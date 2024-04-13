@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("cool-background.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.countertimer{
+    display: flex;
+}
+
+.countertimer p{
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.countertimer p span{
+    display: block;
+    font-size: 4rem;
+}
